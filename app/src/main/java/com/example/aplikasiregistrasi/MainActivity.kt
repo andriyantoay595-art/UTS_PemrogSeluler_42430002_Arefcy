@@ -1,38 +1,35 @@
-package com.example.aplikasiregistrasi // Sesuaikan nama package
+package com.example.modul2login
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val etNama = findViewById<EditText>(R.id.etNama)
-        val etNim = findViewById<EditText>(R.id.etNim)
-        val etProdi = findViewById<EditText>(R.id.etProdi)
-        val btnDaftar = findViewById<Button>(R.id.btnDaftar)
 
-        btnDaftar.setOnClickListener {
-            val nama = etNama.text.toString()
-            val nim = etNim.text.toString()
-            val prodi = etProdi.text.toString()
+        val etUsername = findViewById<EditText>(R.id.etUsername)
+        val etPassword = findViewById<EditText>(R.id.etPassword)
+        val btnLogin = findViewById<Button>(R.id.btnLogin)
 
-            if  (nama.isNotEmpty()  &&  nim.isNotEmpty()  &&
-                prodi.isNotEmpty()) {
+        btnLogin.setOnClickListener {
+            val username = etUsername.text.toString()
+            val password = etPassword.text.toString()
 
-                val intentPindah = Intent(this, DetailActivity::class.java)
+            if (username.isNotEmpty() && password.isNotEmpty()) {
+                Toast.makeText(this, "Login berhasil!", Toast.LENGTH_SHORT).show()
 
-                intentPindah.putExtra("EXTRA_NAMA", nama)
-                intentPindah.putExtra("EXTRA_NIM", nim)
-                intentPindah.putExtra("EXTRA_PRODI", prodi)
 
-                startActivity(intentPindah)
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
             } else {
-                Toast.makeText(this,  "Mohon  lengkapi  semua  kolom!",
-                    Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Username dan Password tidak boleh kosong!", Toast.LENGTH_SHORT).show()
             }
         }
     }
