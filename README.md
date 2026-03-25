@@ -28,4 +28,5 @@ Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 | Input Data | Hasil Generate (If-Else & Loop) |
 | :---: | :---: |
 | ![Panel Input](<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/f6f49073-99cb-4d1f-a155-cf3692659459" />
-) | ![Panel Output](masukkan_link_gambar_output_disini.jpg) |
+) | ![Panel Output](<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/3ff5f7be-3ccb-4aef-88c2-5e4d8fd53fd6" />
+) |
