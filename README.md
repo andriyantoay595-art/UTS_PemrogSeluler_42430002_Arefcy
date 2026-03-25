@@ -1,4 +1,4 @@
-# UTS_PemrogSeluler_42430002_Arefcy
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/0eae7f3a-e140-4273-bdf3-edbae8cb3fd7" /># UTS_PemrogSeluler_42430002_Arefcy
 # UTS Pemrograman Seluler - Aplikasi Generator Lembar Penilaian
 
 ## Identitas Mahasiswa
@@ -20,7 +20,8 @@ Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ### 1. Halaman Login (Responsif)
 | Mode Portrait | Mode Landscape |
 | :---: | :---: |
-| ![Login Portrait](masukkan_link_gambar_portrait_disini.jpg) | ![Login Landscape](masukkan_link_gambar_landscape_disini.jpg) |
+| ![Login Portrait](<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/0ee930b8-b7db-4639-8a5a-6fede1f25c51" />
+) | ![Login Landscape](masukkan_link_gambar_landscape_disini.jpg) |
 
 ### 2. Halaman Panel Generator
 | Input Data | Hasil Generate (If-Else & Loop) |
