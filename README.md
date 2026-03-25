@@ -1,4 +1,4 @@
-<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/0eae7f3a-e140-4273-bdf3-edbae8cb3fd7" /># UTS_PemrogSeluler_42430002_Arefcy
+
 # UTS Pemrograman Seluler - Aplikasi Generator Lembar Penilaian
 
 ## Identitas Mahasiswa
